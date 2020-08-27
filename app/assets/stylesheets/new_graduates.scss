@@ -1,0 +1,170 @@
+// ヘッダー
+.header {
+	display: flex;
+  flex-direction: row;
+  padding: 2rem 0 0 0;
+}
+.logobox {
+  width: 223px;
+  height: 38px;
+}
+.header-box {
+	margin-left: auto;
+	margin-top: 8px;
+}
+.contact-button {
+	padding: 1rem;
+	border: 2px solid #000;
+}
+// ーーーーーーーーーーーーーーーーーーー
+// 画像のいろいろ
+.missionbox {
+  position: relative;
+  text-align: center;
+}
+.mainimg{
+  margin-top: 10px;
+  background:image-url("actshop.JPG");  
+  width:100%;
+  height: 500px;
+  background-size:cover;
+  background-position:50%;
+  position: relative;
+  box-sizing     : border-box; 
+  display        : flex;
+  justify-content: center;
+  align-items    : center;  
+}
+.mainimg::after {
+  content: '';
+  background-color: rgba(13, 6, 110, 0.685);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 500px;
+  
+}
+// 画像内の文字
+.maincatch {
+  text-align: center;
+  font-family: cursive;
+  margin: 0;
+  padding: .2em;
+  font-size:2.0rem;
+  color: #FFF;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  
+}
+.missionmessage {
+  margin-left: 10px;
+  padding: .2em;
+  font-size:1.0rem;
+  color: #FFF;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+}
+// ーーーーーーーーーーーーーーーーーーー
+
+.catch{
+  text-align: center;
+  margin-top: 10px;
+}
+.under {
+  font-size: x-large;
+  font-family: cursive;
+}
+
+.challenge {
+  margin-top: 10px;
+  background:image-url("S__15515651.jpg");  
+  width:100%;
+  height: 100px;
+  background-size:cover;
+  background-position:50%;
+  position: relative;
+  box-sizing     : border-box; 
+  display        : flex;
+  justify-content: center;
+  align-items    : center;  
+}
+
+.challenge::after {
+  content: '';
+  background-color: rgba(82, 1, 1, 0.685);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100px;
+}
+
+.challenge-title {
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0;
+  padding: .2em;
+  font-size:1.5rem;
+  color: #FFF;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+}
+
+.message{
+  clear: both;
+  width: 100%;
+  background: #f6f6f6;
+  display: table;
+}
+.message-box {
+  width: 50%;
+  float: left;
+}
+
+.topmessage {
+  width: 50%;
+  // float: left;
+}
+.bgi{
+
+}
+
+
+
+
+// .mainimg img{
+//   opacity: 0.5;
+//   display:block;
+// }
+// .mainimg::after{
+
+//   content: '';
+
+//   position: absolute;
+
+//   top: 0;
+
+//   right: 0;
+
+//   bottom: 0;
+
+//   left: 0;
+
+//   background-color: blue;
+
+//   opacity: 0.5;
+
+//   display:block
+
+// }
