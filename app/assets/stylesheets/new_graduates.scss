@@ -70,6 +70,7 @@
 }
 // ーーーーーーーーーーーーーーーーーーー
 
+// ーーーーーphilosophy　BOXーーーーー
 .catch{
   text-align: center;
   margin-top: 10px;
@@ -78,7 +79,40 @@
   font-size: x-large;
   font-family: cursive;
 }
+// ーーーーーーーーーーーーーーーーーーー
 
+// ━━━━━━━━━━━社長BOX━━━━━━━━━━━
+.message{
+  clear: both;
+  width: 100%;
+  background: #f6f6f6;
+  display: table;
+  margin-top: 10px;
+}
+.message-box {
+  width: 70%;
+  margin: 0 auto;
+}
+ul.message-text{
+  list-style: none;
+  display: flex;
+}
+.topmessage {
+  text-align: center;
+  font-weight: 300;
+  font-size: x-large;
+}
+.bgi{
+  height: 100%;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+img.topimg{
+  height: auto;
+}
+// ━━━━━━━━━━━ここまで━━━━━━━━━━━
+
+// ーーーーー私たちの挑戦ーーーーー
 .challenge {
   margin-top: 10px;
   background:image-url("S__15515651.jpg");  
@@ -92,7 +126,6 @@
   justify-content: center;
   align-items    : center;  
 }
-
 .challenge::after {
   content: '';
   background-color: rgba(82, 1, 1, 0.685);
@@ -103,7 +136,6 @@
   bottom: 0;
   height: 100px;
 }
-
 .challenge-title {
   text-align: center;
   font-family: sans-serif;
@@ -115,59 +147,63 @@
   position: relative;
   z-index: 1;
 }
+// ーーーーーーーーーーーーーーーーーーー
 
-ul{
-  list-style: none;
-  display: flex;
-}
 
-.message{
-  clear: both;
-  width: 100%;
-  background: #f6f6f6;
-  display: table;
-}
-.message-box {
-  width: 50%;
-  float: left;
-}
-
-.topmessage {
-  width: 50%;
-  // float: left;
-}
-.bgi{
-
-}
-
+// ーーーーーー上の段ーーーーーー
 .content-upper{
-  padding: 40px 0 40px;
-  width: 1000px;
-  margin: 0 auto;
+  padding: 40px 10px;
   display: flex;
   border-bottom: 1px solid #C0C0C0;
 }
 
 .image-photo-upper{
-  width: 300px;
+  width: 50%;
 }
+
 img.upper-photo{
-  width: 350px;
-  height: 250px;
+  width: 100%;
 }
 .description-upper{
-  margin-left: 150px;
-  width: 100%;
- }
+  padding-left: 20px;
+}
 p.caption{
   font-size: 1.0rem;
   word-wrap: break-word;
   font-family: sans-serif;
   line-height:1.5;
 }
-.icon{
-  padding-top: 30px;
+// ーーーーーーーーーーーーーーーーーーー
+
+// ーーーーーー下の段ーーーーーー
+.content-lower{
+  padding: 40px 10px;
+  display: flex;
+  border-bottom: 1px solid #C0C0C0;
+}
+.image-photo-lower{
+  width: 100%;
+}
+
+.description-lower{
+  padding-right: 20px;
+ }
+// ーーーーーーーーーーーーーーーーーーー
+
+
+ .contact-box{
+   width: 100%;
+   padding: 50px 0;
+   position: relative 
+ }
+ .icon{
   text-decoration: none;
+  // margin: 0;
+  // position: absolute;
+  // top: 50%;
+  // left: 50%;
+  // margin-right: -50%;
+  // transform: translate(-50%, -50%)
 }
 a.upper{
   border-radius: 20px;
@@ -178,6 +214,13 @@ a.upper{
   padding: 10px 20px;
   text-decoration: none;
 
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+
 }
 a:hover.upper{
   background-color: #CC0008;
@@ -185,42 +228,93 @@ a:hover.upper{
   text-decoration: none;
 }
 
-.content-lower{
-  padding: 40px 0 40px;
-  width: 1000px;
-  margin: 0 auto;
-  display: flex;
-  border-bottom: 1px solid #C0C0C0;
-}
-.image-photo-lower{
-}
 
-.description-lower{
+
+// ーーーーー応募からの流れーーーーー
+.flow {
+  margin-top: 30px;
+  width:100%;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.flowtitle {
+  font-size: x-large;
+}
+// ーーーーーーーーーーーーーーーーーーー
+
+// ーーーーー応募からの流れ図形ーーーーー
+.stepconnect {
   width: 100%;
- }
-
-// .mainimg img{
-//   opacity: 0.5;
-//   display:block;
+}
+// .connect {
+//   margin: 0 auto;
 // }
-// .mainimg::after{
 
-//   content: '';
+.step1{
+  display: flex;
+  height: 60px;
+  margin-bottom: 11px;
+  margin: 5% 0 95% 0;
+}
+.step2{
+  display: flex;
+  height: 60px;
+  margin-bottom: 11px;
+  margin-left: 15%;
+}
+.step3{
+  display: flex;
+  height: 60px;
+  margin-bottom: 11px;
+  margin-left: 25%;
+}
+.step4{
+  display: flex;
+  height: 60px;
+  margin-bottom: 11px;
+  margin-left: 35%;
+}
+.step5{
+  display: flex;
+  height: 60px;
+  margin-bottom: 11px;
+  margin-left: 45%;
+}
 
-//   position: absolute;
+.stepbox{
+  background-color: #3d1a99;
+  width: 150px;
+  height: 60px;
+  position: relative;
+  color: aliceblue;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  box-shadow: 2px 2px 6px 2px #999;
+  margin-bottom: 10px;
+}
+.flowbox{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
 
-//   top: 0;
-
-//   right: 0;
-
-//   bottom: 0;
-
-//   left: 0;
-
-//   background-color: blue;
-
-//   opacity: 0.5;
-
-//   display:block
-
-// }
+.flowtitle-No{
+  line-height: 60px;
+  margin-left: 7px;
+  font-size: xx-large;
+}
+.flowtitle-step{
+  margin-right: 10px;
+  line-height: 60px;
+  font-size: medium;
+}
+.explanation {
+  line-height: 60px;
+  margin-left: 10px;
+}
