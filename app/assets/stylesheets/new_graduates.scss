@@ -248,6 +248,10 @@ a:hover.upper{
 }
 // .connect {
 //   margin: 0 auto;
+
+// .mainimg img{
+//   opacity: 0.5;
+//   display:block;
 // }
 
 .step1{
@@ -317,4 +321,98 @@ a:hover.upper{
 .explanation {
   line-height: 60px;
   margin-left: 10px;
+}
+// }
+
+
+.values{
+  .values-frame{
+    padding: 40px;
+    .values-frame-title{
+      text-align: center;
+      font-size: 26px;
+      line-height: 1.4;
+      font-weight: bold;
+      margin-bottom: 25px;
+      padding-bottom: 8px;
+      position: relative;
+      &::after{
+        content: "";
+        width: 70px;
+        height: 3px;
+        background-color: cadetblue;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .values-frame-title-text{
+        color: blue;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+      }
+    }
+    .values-frame-boxes{
+      .values-frame-boxes-block{
+        display: flex;
+        max-height: 500px;
+        .values-frame-boxes-block-left{
+          width: 50%;
+          .values-frame-boxes-block-leftx-image{
+            margin: 0 auto;
+            padding: 50px;
+            text-align: center;
+            .value-image{
+              max-width: 250px;
+              height: 100%;
+              max-height: 250px;
+            }
+          }
+        }
+        .values-frame-boxes-block-right{
+          width: 50%;
+          margin-left: 10px;
+          padding: 50px;
+          .values-frame-boxes-block-right-title{
+            color: blue;
+            border-bottom: blue 1px solid;
+            padding-bottom: 8px;
+            font-size: 25px;
+            font-weight: bold;
+          }
+          .values-frame-boxes-block-right-text{
+            padding: 10px 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.movie{
+  height: 450px;
+  background:image-url("actshop.JPG");  
+  background-size:cover;
+  background-position:50%;
+  position: relative;
+  .movie-block{
+    .movie-block-box{
+      text-align: center;
+      .movie-youtube{
+        line-height: 450px;
+        z-index: 1;
+      }
+    }
+  }
+}
+.movie::after {
+  content: '';
+  background-color:  rgba($color: black, $alpha: 0.4);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 450px;
 }
