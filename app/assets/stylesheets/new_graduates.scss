@@ -244,8 +244,15 @@ a:hover.upper{
 
 // ーーーーー応募からの流れ図形ーーーーー
 .stepconnect {
+  
+  margin: 0 2%;
+
+}
+
+.connect {
   width: 100%;
 }
+
 // .connect {
 //   margin: 0 auto;
 
@@ -254,11 +261,12 @@ a:hover.upper{
 //   display:block;
 // }
 
+
 .step1{
   display: flex;
   height: 60px;
   margin-bottom: 11px;
-  margin: 5% 0 95% 0;
+  margin-left: 5%;
 }
 .step2{
   display: flex;
