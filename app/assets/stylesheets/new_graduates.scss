@@ -362,6 +362,7 @@ a:hover.upper{
       }
     }
     .values-frame-boxes{
+      display: flex;
       .values-frame-boxes-block{
         display: flex;
         max-height: 500px;
