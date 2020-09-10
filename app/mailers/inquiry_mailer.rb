@@ -1,6 +1,6 @@
 class InquiryMailer < ActionMailer::Base
   # これ入れないと送れいない。
-  default from: "info@独自ドメイン"
+  default from: "saiyo@actool.jp"
   # default to: "送信先"
   # mail(to: @inquiry.email, を入れたのでいらないかも。
 
