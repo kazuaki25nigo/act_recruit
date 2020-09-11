@@ -435,16 +435,28 @@ a:hover.upper{
       .values-frame-boxes-block{
         display: flex;
         max-height: 500px;
+        // .values-frame-boxes-block-left{
+        //   width: 50%;
+        //   .values-frame-boxes-block-leftx-image{
+        //     margin: 0 auto;
+        //     padding: 0 50px 50px 50px;
+        //     text-align: center;
+        //     .value-image{
+        //       max-width: 250px;
+        //       height: 100%;
+        //       max-height: 250px;
+        //     }
+        //   }
+        // }
       }
     }
   }
 }
-.values-frame-boxes-block-right{
+.values-frame-boxes-block-content{
   width: 100%;
-  margin-left: 10px;
   padding: 0 50px 50px 50px;
 }
-.values-frame-boxes-block-right-title{
+.values-frame-boxes-block-content-title{
   color: black;
   border-bottom: black 1px solid;
   padding-bottom: 8px;
@@ -454,8 +466,9 @@ a:hover.upper{
 .font-size{
   font-size: 19px;
 }
-.values-frame-boxes-block-right-text{
+.values-frame-boxes-block-content-text{
   padding: 10px 0;
+  font-size: 17px;
 }
 
 
