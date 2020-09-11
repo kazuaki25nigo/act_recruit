@@ -468,7 +468,7 @@ a:hover.upper{
 .values-frame-boxes-block-content-title{
   color: black;
   border-bottom: black 1px solid;
-  padding-bottom: 5px;
+  padding: 5px 0;
   font-weight: bold;
   font-size: 17px;
   font-style: italic;
@@ -482,6 +482,9 @@ a:hover.upper{
   font-weight: 700;
 }
 
+.content-line{
+  margin-bottom: 5px;
+}
 
 // ━━━━━━━YouTubeの箇所━━━━━━━
 .movie{
