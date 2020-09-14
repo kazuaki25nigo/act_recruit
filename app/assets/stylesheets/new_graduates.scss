@@ -157,41 +157,68 @@ img.topimg{
   padding: 40px 10px;
   display: flex;
   border-bottom: 1px solid #C0C0C0;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .image-photo-upper{
-  width: 50%;
+  // width: ;
 }
 
 img.upper-photo{
   width: 100%;
+  border-radius: 50%;
 }
 .description-upper{
   padding-left: 20px;
 }
 p.caption{
   font-size: 1.0rem;
-  word-wrap: break-word;
+  // word-wrap: break-word;
   font-family: sans-serif;
   line-height:1.5;
 }
 // ーーーーーーーーーーーーーーーーーーー
 
-// ーーーーーー下の段ーーーーーー
-.content-lower{
+// ーーーーーー中の段ーーーーーー
+.content-middle{
   padding: 40px 10px;
   display: flex;
   border-bottom: 1px solid #C0C0C0;
+  width: 70%;
+  margin: 0 auto;
 }
-.image-photo-lower{
-  width: 80%;
+// .image-photo-middle{
+//   width: 50%;
+// }
+.middle-photo {
+  border-radius: 50%;
 }
 
-.description-lower{
+.description-middle{
   padding-right: 20px;
  }
 // ーーーーーーーーーーーーーーーーーーー
 
+
+.content-rower{
+  padding: 40px 10px;
+  display: flex;
+  border-bottom: 1px solid #C0C0C0;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.image-photo-rower{
+  width: 50%;
+}
+
+img.upper-photo{
+  width: 100%;
+}
+.description-rower{
+  padding-left: 20px;
+}
 
  .contact-box{
    width: 100%;
