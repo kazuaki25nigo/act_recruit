@@ -1,4 +1,49 @@
-// Place all the styles related to the inquiry controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
+.formSection{
+  margin: 0 auto;
+  width: 70%;
+  .newWrap{
+    text-align: center;
+    padding: 20px 0;
+    .newTitle{
+      .newTitle-text{
+        font-size: 18px;
+      }
+    }
+    .newContent{
+      max-width: 100%;
+      background-color: whitesmoke;
+      padding: 15px 0;
+      .row{
+        .col-sm-8{
+          margin-bottom: 8px;
+          .form-control{
+            border-radius: 3px;
+            border: 1px solid gray;
+            height: 30px;
+            width: 400px;
+          }
+        }
+      }
+      .btn{
+        border-radius: 3px;
+        height: 30px;
+        width: 400px;
+        background-color: orange;
+        border: 1px solid gray;
+        font-weight: bold;
+        box-shadow: 1px 2px 5px 0px black;
+      }
+      .row2{
+        padding-top: 25px;
+        .fa.fa-lock{
+          display: inline;
+          margin-right: 2px;
+          color: goldenrod;
+        }
+        .privacy{
+          display: inline;
+        }
+      }
+    }
+  }
+}

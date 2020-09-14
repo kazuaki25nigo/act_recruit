@@ -1,30 +1,30 @@
-<div class="challenge">
-  <h1><span class="challenge-title"> お問い合わせ </span></h1>
-</div>
-<%# <% @page_title = 'お問い合わせ' %>
-<div class="newWrap">
-  <div class="newTitle">
-    <h1>お問い合わせ</h1>
+<section class="formSection">
+  <%# <% @page_title = 'お問い合わせ' %>
+  <div class="newWrap">
+    <div class="newTitle">
+      <h1 class="newTitle-text">インターン応募はコチラ</h1>
+    </div>
+    <div class="newContent">
+      <%= form_for '', :url => inquiry_confirm_path do |f| %>
+        <%# <% if @inquiry.errors.any? %>
+          <%# <div class="alert alert-danger" role="alert">
+            <strong>入力内容にエラーがあります</strong>
+            <ul>
+              <% @inquiry.errors.each do |attr, msg| %>
+                <%# <li><%= msg %>
+              <%# <% end %> 
+            <%# </ul> %>
+          <%# </div> %>
+        <%# <% end %>  
+        <div class="row">
+          <div class="col-sm-8"><%= f.text_field :email, class: 'form-control mb-2' ,placeholder: "メールアドレスを入力" %></div>
+        </div>
+        <%= f.submit 'インターンに応募する', class: 'btn btn-block btn-success' %>
+      <% end %>
+        <div class="row2">
+          <i class="fa fa-lock"></i><p class="privacy">個人情報は厳重に保護され、スパムメールは送られません</p></div>
+          <a >プライバシーポリシー</a>
+        </div>
+    </div>
   </div>
-  <div class="newContent">
-    <%= form_for '', :url => inquiry_confirm_path do |f| %>
-      <%# <% if @inquiry.errors.any? %>
-        <%# <div class="alert alert-danger" role="alert">
-          <strong>入力内容にエラーがあります</strong>
-          <ul>
-            <% @inquiry.errors.each do |attr, msg| %>
-              <%# <li><%= msg %>
-            <%# <% end %> 
-          <%# </ul> %>
-        <%# </div> %>
-      <%# <% end %>  
-      <div class="row">
-        <div class="col-sm-4">名前<span class="text-danger">（必須）</span></div>
-        <div class="col-sm-8"><%= f.text_field :name, class: 'form-control mb-2' %></div>
-        <div class="col-sm-4">メールアドレス<span class="text-danger">（必須）</span></div>
-        <div class="col-sm-8"><%= f.text_field :email, class: 'form-control mb-2' %></div>
-      </div>
-      <%= f.submit '確認', class: 'btn btn-block btn-success' %>
-    <% end %>
-  </div>
-</div>
+</section>
