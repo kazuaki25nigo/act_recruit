@@ -3,7 +3,9 @@
 	display: flex;
   flex-direction: row;
   padding: 2rem 0 0 0;
+  justify-content: center;
 }
+
 .logobox {
   width: 223px;
   height: 38px;
@@ -12,6 +14,7 @@
 	margin-left: auto;
 	margin-top: 8px;
 }
+
 .contact-button {
 	padding: 1rem;
 	border: 0.5px solid #000;
@@ -33,37 +36,36 @@
   background-position:50%;
   position: relative;
   box-sizing     : border-box; 
-  display        : flex;
   justify-content: center;
   align-items    : center;  
 }
-// .mainimg::after {
-//   content: '';
-//   background-color: rgba(13, 6, 110, 0.685);
-//   position: absolute;
-//   left: 0;
-//   right: 0;
-//   top: 0;
-//   bottom: 0;
-//   height: 500px;
-// }
-// 画像内の文字
+
+.hogehoge {
+  position: absolute;  /*要素を浮かす*/
+  top: 50%; /*親要素を起点に上から50%*/
+  left: 50%;  /*親要素を起点に左から50%*/
+  transform: translateY(-50%) translateX(-50%); /*要素の大きさの半分ずつを戻す*/
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+
+// // 画像内の文字
 .maincatch {
   text-align: center;
-  font-family: cursive;
+  font-family: monospace;
   margin: 0;
   padding: .2em;
-  font-size:2.0rem;
+  font-size:1.7rem;
   color: #FFF;
-  font-weight: bold;
-  position: relative;
-  z-index: 1;
-  
+//   font-weight: bold;
+//   position: relative;
+//   z-index: 1;
+text-shadow: -1px -2px 3px #eff305ad;
 }
 .missionmessage {
+  margin-top : 10px;
   margin-left: 10px;
   padding: .2em;
-  font-size:1.0rem;
+  font-size:1.4rem;
   color: #FFF;
   font-weight: bold;
   position: relative;
