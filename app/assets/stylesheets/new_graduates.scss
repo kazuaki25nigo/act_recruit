@@ -26,7 +26,7 @@
 }
 .mainimg{
   margin-top: 10px;
-  background:image-url("actshop.JPG");  
+  background:image-url("Ztme0oGCtM2RdJL1600087189_1600087243.jpg");  
   width:100%;
   height: 500px;
   background-size:cover;
@@ -37,17 +37,16 @@
   justify-content: center;
   align-items    : center;  
 }
-.mainimg::after {
-  content: '';
-  background-color: rgba(13, 6, 110, 0.685);
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  height: 500px;
-  
-}
+// .mainimg::after {
+//   content: '';
+//   background-color: rgba(13, 6, 110, 0.685);
+//   position: absolute;
+//   left: 0;
+//   right: 0;
+//   top: 0;
+//   bottom: 0;
+//   height: 500px;
+// }
 // 画像内の文字
 .maincatch {
   text-align: center;
