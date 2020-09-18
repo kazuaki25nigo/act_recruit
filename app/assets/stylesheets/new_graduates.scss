@@ -530,33 +530,3 @@ a:hover.upper{
   margin-bottom: 5px;
 }
 
-// ━━━━━━━YouTubeの箇所━━━━━━━
-.movie{
-  height: 450px;
-  background:image-url("actshop.JPG");  
-  background-size:cover;
-  background-position:50%;
-  position: relative;
-  margin-top: 30px;
-  .movie-block{
-    .movie-block-box{
-      text-align: center;
-      .movie-youtube{
-        line-height: 450px;
-        z-index: 1;
-      }
-    }
-  }
-}
-.movie::after {
-  content: '';
-  background-color:  rgba($color: black, $alpha: 0.4);
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  height: 450px;
-}
-// ━━━━━━━YouTubeの箇所ここまで━━━━━━━
-
