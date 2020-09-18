@@ -25,19 +25,13 @@
 <%# ━━━━━━理念の場所━━━━━━ %>
 <div class="missionbox">
   <div class="mainimg">
-    <div class="hogehoge">
+    <div class="maincatchbox">
       <h1><span class="maincatch"> 数ある企業の中から自分に合う会社を見つけることに悩んでいませんか？ </span></h1>
         <p class="missionmessage">当社独自の取り組みであなたの<br>就職活動の悩みを解決します。</p>
     </div>
   </div>
 </div>
-  <main>
-    <div class="catch">
-      <h2><span class="under">ー Philosophy ー</span></h2>
-      <p class="philosophymessage">人間力が自ら成長し<br>チャレンジ精神と思いやりに溢れた人財の宝庫となる</p>      
-    </div>
-  </main>
-</div>
+
 <%# ━━━━━━理念の場所・ここまで━━━━━━ %>
 
 <div class="values-menbers">
@@ -51,6 +45,20 @@
     </div>
   </div>
 </div>
+
+</div>
+<div class="contact-box">
+  <div class="icon">
+    <%=link_to "応募はこちらから", "#", class: "upper"  %>
+  </div>
+</div>
+
+  <main>
+    <div class="catch">
+      <h2><span class="under">ー Philosophy ー</span></h2>
+      <p class="philosophymessage">人間力が自ら成長し<br>チャレンジ精神と思いやりに溢れた人財の宝庫となる</p>      
+    </div>
+  </main>
 
 <%# ━━━━━━社長からのメッセージの場所━━━━━━ %>
 <div class="message">
@@ -68,20 +76,19 @@
 </div>
 <%# ━━━━━━社長からのメッセージの場所・ここまで━━━━━━ %>
 
+<%# ━━━━━━アクトの強み【新卒・インターン】━━━━━━ %>
 <div class="challenge">
   <h1><span class="challenge-title"> アクトの強み【新卒・インターン】 </span></h1>
 </div>
 
-
 <div class="content-upper">
-  <p class="image-photo-upper"> <img src="assets/20newmenber.png" class="upper-photo" ></p>
+  <div class="image-photo-upper"> <img src="assets/20newmenber.png" class="upper-photo" >
+  <%# <p class="image-photo-upper"> <img src="assets/20newmenber.png" class="upper-photo" ></p> %>
   <div class="description-upper">
-    <p class="caption">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    <br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    <br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    <br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    <br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    <br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+    <div class="description-upper-box">2020年4月1日　入社　町田店
+    <p class="caption">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+    </div>
+  </div>
   </div>
 </div>
 <div class="content-middle">
@@ -97,7 +104,7 @@
   <p class="image-photo-middle"> <img src="assets/honbusaport.png" class="middle-photo" %></p>
 </div>
 <div class="content-rower">
-  <p class="image-photo-rower"> <img src="assets/tentyou.png" class="upper-photo" %></p>
+  <p class="image-photo-rower"> <img src="assets/tentyou.png" class="rower-photo" %></p>
   <div class="description-rower">
     <p class="caption">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
     <br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -107,13 +114,16 @@
     <br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
     </p>
 </div>
-  
+<%# ━━━━━━アクトの強み【新卒・インターン】ここまで━━━━━━ %>
+
+<%# ━━━━━━応募ボタン━━━━━━ %>
 </div>
 <div class="contact-box">
   <div class="icon">
     <%=link_to "応募はこちらから", "#", class: "upper"  %>
   </div>
 </div>
+<%# ━━━━━━応募ボタンここまで━━━━━━ %>
 
 <%# ━━━━━━応募の流れ━━━━━━ %>
 <div class="flow">
@@ -200,7 +210,5 @@
 
 
 
-<div class="challenge">
-  <h1><span class="challenge-title"> インターン応募フォーム </span></h1>
-</div>
+<%# ━━━━━━フォームの箇所━━━━━━ %>
 <div class= "hoge"><%= render 'inquiry/index' %></div>

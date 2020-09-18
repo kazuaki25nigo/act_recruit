@@ -40,7 +40,7 @@
   align-items    : center;  
 }
 
-.hogehoge {
+.maincatchbox {
   position: absolute;  /*要素を浮かす*/
   top: 50%; /*親要素を起点に上から50%*/
   left: 50%;  /*親要素を起点に左から50%*/
@@ -72,6 +72,31 @@ text-shadow: -1px -2px 3px #eff305ad;
   z-index: 1;
 }
 // ーーーーーーーーーーーーーーーーーーー
+
+.values-menbers {
+  width: 100%;
+  height: 400px;
+  background-color: aqua;
+  .values-menbers-box {
+    margin: 10px;
+    background-color: cornflowerblue;
+    height: 100%;
+    // position: relative;
+    .values-menbers-box-left {
+      background-color: rgb(235, 220, 21);
+      height: 100%;
+      position: relative;
+      .values-menbers-box-rite {
+        background-color: rgb(235, 21, 146);
+        height: 70%;
+        width: 70%;
+        position: absolute;
+        margin:0 0 0 auto ;
+        
+      }
+    }
+  }
+}
 
 // ーーーーーphilosophy　BOXーーーーー
 .catch{
@@ -163,11 +188,11 @@ img.topimg{
 }
 
 .image-photo-upper{
-  // width: ;
+  width: 30%;
 }
 
-img.upper-photo{
-  width: 100%;
+.upper-photo{
+  width: 20vw;
   border-radius: 50%;
 }
 .description-upper{
@@ -178,6 +203,7 @@ p.caption{
   // word-wrap: break-word;
   font-family: sans-serif;
   line-height:1.5;
+  word-break: keep-all;
 }
 // ーーーーーーーーーーーーーーーーーーー
 
@@ -189,13 +215,9 @@ p.caption{
   width: 70%;
   margin: 0 auto;
 }
-// .image-photo-middle{
-//   width: 50%;
-// }
 .middle-photo {
   border-radius: 50%;
 }
-
 .description-middle{
   padding-right: 20px;
  }
@@ -228,12 +250,6 @@ img.upper-photo{
  }
  .icon{
   text-decoration: none;
-  // margin: 0;
-  // position: absolute;
-  // top: 50%;
-  // left: 50%;
-  // margin-right: -50%;
-  // transform: translate(-50%, -50%)
 }
 a.upper{
   border-radius: 20px;
@@ -544,27 +560,3 @@ a:hover.upper{
 }
 // ━━━━━━━YouTubeの箇所ここまで━━━━━━━
 
-.values-menbers {
-  width: 100%;
-  height: 400px;
-  background-color: aqua;
-  .values-menbers-box {
-    margin: 10px;
-    background-color: cornflowerblue;
-    height: 100%;
-    // position: relative;
-    .values-menbers-box-left {
-      background-color: rgb(235, 220, 21);
-      height: 100%;
-      position: relative;
-      .values-menbers-box-rite {
-        background-color: rgb(235, 21, 146);
-        height: 70%;
-        width: 70%;
-        position: absolute;
-        margin:0 0 0 auto ;
-        
-      }
-    }
-  }
-}
