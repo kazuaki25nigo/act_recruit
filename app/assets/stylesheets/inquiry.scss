@@ -4,16 +4,16 @@
   .newWrap{
     text-align: center;
     padding: 20px 0;
-    .newTitle{
-      .newTitle-text{
-        font-size: 18px;
-      }
-    }
     .newContent{
       max-width: 100%;
       background-color: whitesmoke;
       padding: 15px 0;
       .row{
+        .newTitle{
+          .newTitle-text{
+            font-size: 20px;
+          }
+        }
         .col-sm-8{
           margin-bottom: 8px;
           .form-control{
@@ -21,6 +21,14 @@
             border: 1px solid gray;
             height: 30px;
             width: 400px;
+          }
+        }
+        .arrowBox{
+          display: flex;
+          justify-content: center;
+          .arrowPic{
+            max-width: 60px;
+            margin: 15px;
           }
         }
       }
