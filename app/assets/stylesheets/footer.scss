@@ -3,21 +3,25 @@
   margin: 0 auto;
   .footer__block{
     text-align: center;
-    padding: 10px 0;
+    padding: 0 0 20px 0;
     .footer__text-box1{
       .footer-privacy{
         text-decoration: none;
         color: gray;
         border-bottom: 1px gray solid;
+        margin-right: 10px;
+        font-size: 14px;
       }
       .footer-law{
         text-decoration: none;
         color: gray;
         border-bottom: 1px gray solid;
+        font-size: 14px;
       }
     } 
     .footer__text-box2{
       .footer-copyright{
+        font-size: 14px;
       }
     }
   }
