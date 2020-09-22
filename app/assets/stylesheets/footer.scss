@@ -26,3 +26,8 @@
     }
   }
 }
+@media screen and (max-width: 1200px) {
+	.absonsive {
+		height: calc(500 / 1200 * 100vw);
+	}
+}
