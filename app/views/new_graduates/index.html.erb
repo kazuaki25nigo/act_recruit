@@ -31,7 +31,8 @@
 </div>
 <div class="contact-box">
   <div class="icon">
-    <%=link_to "応募はこちらから", "#", class: "upper"  %>
+    <a class="upper" href="#form">応募はこちらから</a>
+    <%# <%=link_to "応募はこちらから", "#", class: "upper"  %> 
   </div>
 </div>
 
@@ -118,7 +119,8 @@
 </div>
 <div class="contact-box">
   <div class="icon">
-    <%=link_to "応募はこちらから", "#", class: "upper"  %>
+    <a class="upper" href="#form">応募はこちらから</a>
+    <%# <%=link_to "応募はこちらから", "#", class: "upper"  %> 
   </div>
 </div>
 <%# ━━━━━━応募ボタンここまで━━━━━━ %>
@@ -178,35 +180,21 @@
   </div>
 </div>
 </div>
-<%# ━━━━━━応募の流れ・ここまで━━━━━━ %>
 
 <%# ━━━━━━管理本部メッセージ━━━━━━ %>
 <div class= "hoge"><%= render 'new_graduates/message' %></div>
-<%# ━━━━━━管理本部メッセージ・ここまで━━━━━━ %>
 
 <%# ━━━━━━YouTubeの場所━━━━━━━ %>
 <div class="challenge">
   <h1><span class="challenge-title"> 説明動画 </span></h1>
 </div>
 
-<div class="movie">
-  <div class="movie-block">
-    <div class="movie-block-box">
-      <iframe class= "movie-youtube" width="560" height="315" src="https://www.youtube.com/embed/MgksYZYr8Wo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <%# <iframe class= "movie-youtube" width="560" height="315" src="https://www.youtube.com/embed/SalpM8z8oRo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> %>
-    </div>
-  </div>
-</div>
-<%# ━━━━━━YouTubeここまで━━━━━━━━ %>
-
-
-
-
-  
-
-
-
-
+<div class= "hoge"><%= render 'new_graduates/youtube' %></div>
 
 <%# ━━━━━━フォームの箇所━━━━━━ %>
 <div class= "hoge"><%= render 'inquiry/index' %></div>
+
+<%# ━━━━━━会社のプロフィール━━━━━━ %>
+
+<%# ━━━━━━特商法・著作権━━━━━━ %>
+<div class= "hoge"><%= render 'new_graduates/footer' %></div>
